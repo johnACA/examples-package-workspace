@@ -1,0 +1,22 @@
+{
+    "steps": [
+        {
+            "type": "invokeCode",
+            "className": "io.toro.martini.LoggerMethods",
+            "methodName": "println",
+            "parameters": [
+                "java.lang.String"
+            ],
+            "inputs": [
+                {
+                    "type": "set",
+                    "expression": "new Date()",
+                    "evaluate": true,
+                    "to": [
+                        "message"
+                    ]
+                }
+            ]
+        }
+    ]
+}
